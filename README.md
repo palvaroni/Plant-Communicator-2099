@@ -4,7 +4,7 @@ Based on [this example project](https://create.arduino.cc/projecthub/arduino/pla
 
 Requires you to [generate device certificate](https://create.arduino.cc/projecthub/Arduino_Genuino/securely-connecting-an-arduino-mkr-wifi-1010-to-aws-iot-core-a9f365) for your board.
 
-##Schematics
+## Schematics
 TODO: Add schematics
 
 ## Estimated battery life
