@@ -4,6 +4,17 @@ Based on [this example project](https://create.arduino.cc/projecthub/arduino/pla
 
 Requires you to [generate device certificate](https://create.arduino.cc/projecthub/Arduino_Genuino/securely-connecting-an-arduino-mkr-wifi-1010-to-aws-iot-core-a9f365) for your board.
 
+Message payload is JSON serialized:
+```
+{
+  "id": "0001",         // device id
+  "tmst": 1589033929,   // timestamp
+  "mstr": 0.02,         // moisture (average of 10)
+  "tmpr": 27.1,         // temperature
+  "lght": 11.25         // light
+}
+```
+
 ## Schematics
 TODO: Add schematics
 
