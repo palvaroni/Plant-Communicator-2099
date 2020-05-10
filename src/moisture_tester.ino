@@ -39,7 +39,7 @@ const char *certificate = SECRET_CERTIFICATE;
 const int lightPin = A0;
 const int temperaturePin = A1;
 const int moisturePin = A2;
-const int outputPin = 6;
+const int outputPin = LED_BUILTIN;
 const int buzzerPin = 5;
 
 WiFiClient wifiClient;
